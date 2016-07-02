@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title></title>
+        </head>
+        <body>
+            <header>
+            	<nav>
+            		<ul>
+            			<li>home</li>
+            			<li>contact</li>
+            		</ul>
+            	</nav>
+            </header>
+            <main>
+            	<h1>El Mate</h1>
+            	<p>Se denomina mate a la <strong>infusión hecha con hojas de yerba mate</strong> (Ilex paraguariensis), planta originaria de las cuencas de los ríos Paraná, Paraguay y el curso superior del Uruguay. Estas plantas previamente secadas, cortadas y molidas forman la yerba mate, la cual tiene sabor amargo debido a los taninos de sus hojas. Por esto, hay quienes gustan de endulzar un poco el mate con azúcar, miel, stevia o endulzante no calórico. La espuma que se genera al «cebar» se debe a los glucósidos que la yerba mate contiene.<br>
+				Era consumido desde la época precolombina entre los pueblos originarios guaraníes (y por influencia de esto, también lo hacían otros grupos que realizaban comercio con los guaraníes, como los querandíes, los pampas antiguos, los qoms, etc.).</p>
+
+				<p>Fue adoptado rápidamente por los colonizadores españoles, y quedó como parte del <em>acervo cultural en Argentina, Bolivia (Tarija, Santa Cruz, Chuquisaca), Paraguay y Uruguay, en donde se consume mayoritariamente, y también en zonas de Brasil y Chile</em> (entre Coquimbo y Magallanes).<br>
+				Como sucede con el té, el café o el chocolate, el mate posee un efecto estimulante debido a la cafeína que contiene.2 3 Anteriormente, y en forma popular, se pensaba que tenía un energizante similar pero no igual, al que se llamaba "mateína"</p>
+            </main>
+
+            <aside>
+            	<h4>El Mate en las redes sociales</h4>
+            	<ol type="A">
+            		<li><a href="https://www.facebook.com/miyerbamate">Facebook</a></li>
+            		<li><a href="https://www.instagram.com/yerbamatecbse/">Instagram</a></li>
+            		<li><a href="https://twitter.com/mymateworld">Twitter</a></li>
+            	</ol>
+            </aside>
+            <section>
+            	<h3>Tipos de yerba</h3>
+            	<ul>
+            		<li><a href="#misionera">Misionera</a></li>
+            		<li><a href="#brasilera">Brasilera</a></li>
+            		<li><a href="uruguaya">Uruguaya</a></li>
+            	</ul>
+
+              <p id="misionera">Misionera: La yerba mate cultivada en Andresito, provincia de Misiones, es producida, elaborada y procesada en forma natural por los productores rurales de la zona, a la que circundan áreas protegidas de la talla del célebre Parque Nacional Iguazú, lo que asegura una altísima sanidad ambiental y, lógicamente, la obtención de productos de máxima pureza.</p>
+
+              <p id="brasilera">Brasilera: Lo que difiere la infusión argentino/uruguaya de la del sur de Brasil, sin duda, es la yerba mate. Para comprender esa diferencia, hemos que llevar en cuenta el proceso de elaboración de la yerba mate brasileña. Nuestra yerba es verde, no es madurada. Su elaboración empieza por la cosecha, pasa por el secaje, donde las hojas son sometidas a altas temperaturas, sin el contacto directo del fuego (la primera diferencia), pasan por la primera molienda(se obtiene la yerba canchada), hecho van a un aparato que saca la humedad restante y luego pasan por la molienda final. Después de la molienda final, la yerba ya está lista al consumo y es empaquetada. Bueno, se percibe que la yerba no es estacionada por meses, como en Uruguay y Argentina. Resulta en una yerba muy verde, nueva y una molienda fina. La grand exigencia de los mateadores brasileños es una yerba nueva, del mes de la su elaboración. </p>
+
+              <p id="uruguaya">Uruguaya: La yerba sin palo se debe a la tradición portuguesa, según la cual a todas las verduras y cultivos de hoja se les quita el palo y el tallo por la acidez que generan. Otros sostienen que es la hoja la que posee mayor nutrición y que el palo no aporta ningún valor. Y hay quienes afirman que así el mate se “lava” menos. Lo cierto es que en Uruguay el mate se toma sin palo. La circunferencia del mate es grande, para introducir mucha yerba.
+              Los mates uruguayos son generalmente grandes y su capacidad es notablemente mayor que la de los mates argentinos. Reciben el nombre de “porongos” y están hechos en su mayoría de calabazas.</p>
+
+              <h4>Historia de la yerba mate</h4>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/g3ldQpgLbHA" frameborder="0" allowfullscreen></iframe>
+              <br>
+              <p>Si tiene inconvenientes para acceder al video <a href="https://www.youtube.com/watch?v=g3ldQpgLbHA">haga click aquí</a></p>
+              <br> 
+            </section>
+
+            <section>
+            	<table>
+    				    <caption>Variantes de la infusión</caption>
+    				    <thead>
+        				  <tr>
+          					<th>Tipo</th>
+          					<th>Ingredientes</th>
+          					<th>Lugar</th>
+        				  </tr>
+      				  </thead>
+      				  <tbody>
+        				  <tr>
+          					<th>Mate amargo</th>
+          					<td>mate no endulzado</td>
+          					<td>Paraguay, Uruguay, sur de Brasil, y partes de Argentina y Bolivia</td>
+        				  </tr>
+       					  <tr>
+          					<th>Mate dulce</th>
+          					<td>se incorpora azúcar a gusto del bebedor</td>
+          					<td>Santiago del Estero y Entre Ríos</td>
+        				  </tr>
+        				  <tr>
+          					<th>Mate de leche</th>
+          					<td>cebar con leche y azúcar</td>
+          					<td>Paraguay</td>
+        				  </tr>
+      				  </tbody>
+    			     </table>
+            </section>
+            <br>
+            <br>
+            <footer>
+              <form method="post" action="enviador.php">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" placeholder="Ingrese su nombre" required>
+                <br/>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" placeholder="Ingrese su apellido" required>
+                <br/>
+
+                <label for="correo">Email:</label>
+                <input type="email" name="correo" placeholder="Ingrese su mail" required>
+                <br/>
+
+                <label for="genero">
+                <input type="radio" name="genero" id="genero" value="masc"> Masculino<br>
+                </label>
+
+                <label for="genero1">
+                <input type="radio" name="genero" id="genero1" value="fem"> Femenino<br>
+                </label>
+
+                <input type="checkbox" name="novedades"> Desea recibir novedades?
+                <br/>
+
+                <label for="mensaje">Comentarios:</label>
+                <textarea name="mensaje" placeholder="Dejá tu comentario"></textarea>
+                <br/>
+              </form>
+            </footer>
+      </body>
+    </html>
+
+
+    
+            
